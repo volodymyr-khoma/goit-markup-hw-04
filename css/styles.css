@@ -48,6 +48,7 @@ ul {
 .current {
     position: relative;
     color: #404BBF;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .current::after {
@@ -56,10 +57,11 @@ ul {
     height: 4px;
     display: block;
     background-color: #404BBF;
-    border-radius: 3px;
+    border-radius: 2px;
     left: 0;
     bottom: -1px;
     position: absolute;
+    
 }
 
 .studio:hover, .studio:focus {
@@ -75,6 +77,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts:hover, .contacts:focus {
@@ -125,6 +128,7 @@ ul {
     border-radius: 4px;
     margin-left: auto;
     margin-right: auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .solution-button:hover, .solution-button:focus {
@@ -158,6 +162,7 @@ ul {
     align-items: center;
     justify-content: center;
     margin-bottom: 8px;
+    border: 1px solid #8e8f99;
 }
 
 .icon {
@@ -372,6 +377,7 @@ img {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-div {
